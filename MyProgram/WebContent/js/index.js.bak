@@ -1,0 +1,807 @@
+
+	var myProgram = angular.module('myModuleProgram',['ngRoute']);
+
+  
+//////////////Routing ////////////////////
+
+	myProgram.config(function($routeProvider){
+		
+		$routeProvider
+		.when('/signUp', {
+			templateUrl : 'template/signUp.html',
+			controller  : 'signUpCtrl'
+		})
+		.when('/login', {
+			templateUrl : 'template/login.html',
+			controller  : 'loginCtrl'
+			
+		})
+		.when('/forgetPassword', {
+			templateUrl : 'template/forgetPassword.html',
+		})
+		.when('/', {
+			templateUrl : 'template/basicProgram.html',
+			controller  : 'basicPCtrl'
+		})
+		.when('/constructor', {
+			templateUrl : 'template/constructor.html',
+			controller  : 'constructorCtrl'
+			
+		})
+		.when('/starPattern', {
+			templateUrl : 'template/starPattern.html',
+			controller  : 'starPatternCtrl'
+		})
+		.when('/oppConcept', {
+			templateUrl : 'template/oppConcept.html',
+			controller  : 'oppsCtrl'
+			
+		})
+		.when('/array', {
+			templateUrl : 'template/array.html',
+			controller  : 'arrayCtrl'
+		})
+		.when('/string', {
+			templateUrl : 'template/string.html',
+			controller  : 'stringCtrl'
+		})
+		.when('/exceptionHendaling', {
+			templateUrl : 'template/exceptionHendaling.html',
+			controller  : 'exceptionHendalingCtrl'
+		})
+		.when('/collection', {
+			templateUrl : 'template/collection.html',
+			controller  : 'collectionCtrl'
+		})
+		.when('/multiThrading', {
+			templateUrl : 'template/multiThrading.html',
+			controller  : 'multiThradingCtrl'
+		})
+		.when('/date', {
+			templateUrl : 'template/date.html',
+			controller  : 'dateCtrl'
+		})
+		.when('/jdbcConnection', {
+			templateUrl : 'template/jdbcConnection.html',
+			controller  : 'jdbcConnectionCtrl'
+		}) 
+		.when('/questionPaper', {
+			templateUrl : 'template/questionPaper.html',
+			controller  : 'questionPaperCtrl'
+		}) 
+		.when('/suggetionPaper', {
+            templateUrl : 'template/suggetionPaper.html',
+            controller  : 'suggetionPaperCtrl'
+  
+        })
+		.when('/quiz', {
+            templateUrl : 'template/quiz.html',
+            controller  : 'quizCtrl'
+        }) 
+		.when('/askQuestion', {
+            templateUrl : 'template/askQuestion.html',
+            controller  : 'askQuestionCtrl'
+        })
+		
+	});
+
+
+///////////////// View Centric Controllers ///////////////////  
+
+	myProgram.controller('menuBar', function($scope) {
+		
+	    $scope.menuBar = false;
+	    
+	    $scope.toggle = function() {
+	        $scope.menuBar = !$scope.menuBar;
+	    };
+	    
+	});
+	
+	
+	myProgram.controller('loginCtrl', function($scope,$http) {
+		
+        $scope.isLogin = function() {
+        	var data = {
+                'mailid' : $scope.mailid,
+                'password' : $scope.password
+            }	
+        	alert("inside login..."+$scope.mailid +" "+$scope.password);
+        	$http.post("http://localhost:8080/MyProgram/login", data)
+            .success(function(data, status, headers, config,response) {
+               //  $scope.employee = data; 
+                 alert("sucessfully......."+JSON.stringify(data))// Sets the employee object in $scope
+             })
+           .error(function(data, status, headers, config) {
+               alert("failure");
+             });
+         };     	
+        		    
+	});
+	
+	
+	
+	
+	myProgram.controller('signUpCtrl', function($scope,$http,$location) {
+		
+		 $scope.isSignUp = function() {
+			 alert("inside sign up");
+			 alert( $scope.fname +" ## "+$scope.lname+" ## "+ $scope.phNumb);
+	            $http({
+	                    method : 'POST',
+	                    url : 'http://localhost:8080/MyProgram/signUp',
+                    	data : {
+                            'fName' : $scope.fname,
+                            'lName' : $scope.lname,
+                            'phNumber' : $scope.phNumb,
+                            'mailid' : $scope.mailid,
+                            'password' : $scope.password
+                        }	
+	            }).success(function(status,data) {
+	            	alert("sucessfully......."+JSON.stringify(data))
+	                    /*$scope.person = response.data;
+	                    alert("fail  n Rael"+status)*/
+	            }).error(function(response, status, headers, config) {
+	            	/*if(response==null)
+	            		{
+	            	alert("sucessfull  ");
+	            	  $location.path('/basicProgram')
+	            		}else{
+	            	alert("failur......."+status);
+	            		}*/
+	            	alert("Errorrrrrr.......")
+	   
+	            });
+
+	        };
+	});
+	
+	
+	
+	
+	myProgram.controller('basicPCtrl', function($scope) {
+			
+		    $scope.basicPro = false;
+		    $scope.basicPro1 = false;
+		    $scope.basicPro2 = false;
+		    $scope.basicPro3 = false;
+		    $scope.basicPro4 = false;
+		    $scope.basicPro5 = false;
+		    $scope.basicPro6 = false;
+		    $scope.basicPro7 = false;
+		    $scope.basicPro8 = false;
+		    $scope.basicPro9 = false;
+		    $scope.basicPro10 = false;
+		    $scope.basicPro11 = false;
+		    $scope.basicPro12 = false;
+		    $scope.basicPro13 = false;
+		    $scope.basicPro14 = false;
+		    $scope.basicPro15 = false;
+		    
+		    $scope.toggle = function() {
+		        $scope.basicPro = !$scope.basicPro;
+		    };
+		    
+		    $scope.toggle1 = function() {
+		        $scope.basicPro1 = !$scope.basicPro1;
+		    };
+		    $scope.toggle2 = function() {
+		        $scope.basicPro2 = !$scope.basicPro2;
+		    };
+		    $scope.toggle3 = function() {
+		        $scope.basicPro3 = !$scope.basicPro3;
+		    };
+		    $scope.toggle4 = function() {
+		        $scope.basicPro4 = !$scope.basicPro4;
+		    };
+		    $scope.toggle5 = function() {
+		        $scope.basicPro5 = !$scope.basicPro5;
+		    };
+		    $scope.toggle6 = function() {
+		        $scope.basicPro6 = !$scope.basicPro6;
+		    };
+		    $scope.toggle7 = function() {
+		        $scope.basicPro7 = !$scope.basicPro7;
+		    };
+		    
+			 $scope.toggle8 = function() {
+		        $scope.basicPro8 = !$scope.basicPro8;
+		    };
+		    $scope.toggle9 = function() {
+		        $scope.basicPro9 = !$scope.basicPro9;
+		    };
+		    $scope.toggle10 = function() {
+		        $scope.basicPro10 = !$scope.basicPro10;
+		    };
+		    $scope.toggle11 = function() {
+		        $scope.basicPro11 = !$scope.basicPro11;
+		    };
+		    $scope.toggle12 = function() {
+		        $scope.basicPro12 = !$scope.basicPro12;
+		    };
+		    $scope.toggle13 = function() {
+		        $scope.basicPro13 = !$scope.basicPro13;
+		    };
+		    $scope.toggle14 = function() {
+		        $scope.basicPro14 = !$scope.basicPro14;
+		    };
+		    $scope.toggle15 = function() {
+		        $scope.basicPro15 = !$scope.basicPro15;
+		    };
+		    
+		});
+		
+		
+	myProgram.controller('constructorCtrl', function($scope) {
+		
+		$scope.constructor = false;
+		$scope.constructor1 = false;
+		$scope.constructor2 = false;
+		$scope.constructor3 = false;
+		$scope.constructor4 = false;
+		$scope.constructor5 = false;
+		$scope.constructor6 = false;
+		$scope.constructor7 = false;
+	
+		$scope.toggle = function() {
+			$scope.constructor = !$scope.constructor;
+		};
+	
+		$scope.toggle1 = function() {
+			$scope.constructor1 = !$scope.constructor1;
+		};
+		$scope.toggle2 = function() {
+			$scope.constructor2 = !$scope.constructor2;
+		};
+		$scope.toggle3 = function() {
+			$scope.constructor3 = !$scope.constructor3;
+		};
+		$scope.toggle4 = function() {
+			$scope.constructor4 = !$scope.constructor4;
+		};
+		$scope.toggle5 = function() {
+			$scope.constructor5 = !$scope.constructor5;
+		};
+		$scope.toggle6 = function() {
+			$scope.constructor6 = !$scope.constructor6;
+		};
+		$scope.toggle7 = function() {
+			$scope.constructor7 = !$scope.constructor7;
+		};
+	
+	});
+	
+	
+	myProgram.controller('starPatternCtrl', function($scope) {
+	
+		$scope.starPattern = false;
+		$scope.starPattern1 = false;
+		$scope.starPattern2 = false;
+		$scope.starPattern3 = false;
+		$scope.starPattern4 = false;
+		$scope.starPattern5 = false;
+		$scope.starPattern6 = false;
+		$scope.starPattern7 = false;
+	
+		$scope.toggle = function() {
+			$scope.starPattern = !$scope.starPattern;
+		};
+	
+		$scope.toggle1 = function() {
+			$scope.starPattern1 = !$scope.starPattern1;
+		};
+		$scope.toggle2 = function() {
+			$scope.starPattern2 = !$scope.starPattern2;
+		};
+		$scope.toggle3 = function() {
+			$scope.starPattern3 = !$scope.starPattern3;
+		};
+		$scope.toggle4 = function() {
+			$scope.starPattern4 = !$scope.starPattern4;
+		};
+		$scope.toggle5 = function() {
+			$scope.starPattern5 = !$scope.starPattern5;
+		};
+		$scope.toggle6 = function() {
+			$scope.starPattern6 = !$scope.starPattern6;
+		};
+		$scope.toggle7 = function() {
+			$scope.starPattern7 = !$scope.starPattern7;
+		};
+	
+	});
+	
+		
+		
+		
+		myProgram.controller('oppsCtrl', function($scope) {
+			
+		    $scope.opps = false;
+		    $scope.opps1 = false;
+		    $scope.opps2 = false;
+		    $scope.opps3 = false;
+		    $scope.opps5 = false;
+		    $scope.opps6 = false;
+		    $scope.opps7 = false;
+		    
+		    
+		    $scope.toggle = function() {
+		        $scope.opps = !$scope.opps;
+		    };    
+		    $scope.toggle1 = function() {
+		        $scope.opps1 = !$scope.opps1;
+		    };
+		    $scope.toggle2 = function() {
+		        $scope.opps2 = !$scope.opps2;
+		    };
+		    $scope.toggle3 = function() {
+		        $scope.opps3 = !$scope.opps3;
+		    };
+		    $scope.toggle4 = function() {
+		        $scope.opps4 = !$scope.opps4;
+		    };
+		    $scope.toggle5 = function() {
+		        $scope.opps5 = !$scope.opps5;
+		    };
+		    $scope.toggle6 = function() {
+		        $scope.opps6 = !$scope.opps6;
+		    };
+		    $scope.toggle7 = function() {
+		        $scope.opps7 = !$scope.opps7;
+		    };
+		});
+		
+		
+	myProgram.controller('arrayCtrl', function($scope) {
+			
+		    $scope.array = false;
+		    $scope.array1 = false;
+		    $scope.array2 = false;
+		    $scope.array3 = false;
+		    $scope.array4 = false;
+		    $scope.array5 = false;
+		    $scope.array6 = false;
+		    $scope.array7 = false;
+		    
+		    $scope.toggle = function() {
+		        $scope.array = !$scope.array;
+		    };
+		    
+		    $scope.toggle1 = function() {
+		        $scope.array1 = !$scope.array1;
+		    };
+		    $scope.toggle2 = function() {
+		        $scope.array2 = !$scope.array2;
+		    };
+		    $scope.toggle3 = function() {
+		        $scope.array3 = !$scope.array3;
+		    };
+		    $scope.toggle4 = function() {
+		        $scope.array4 = !$scope.array4;
+		    };
+		    $scope.toggle5 = function() {
+		        $scope.array5 = !$scope.array5;
+		    };
+		    $scope.toggle6 = function() {
+		        $scope.array6 = !$scope.array6;
+		    };
+		    $scope.toggle7 = function() {
+		        $scope.array7 = !$scope.array7;
+		    };
+		    
+		});
+	
+	
+	
+	myProgram.controller('stringCtrl', function($scope) {
+		
+	    $scope.string = false;
+	    $scope.string1 = false;
+	    $scope.string2 = false;
+	    $scope.string3 = false;
+	    $scope.string4 = false;
+	    $scope.string5 = false;
+	    $scope.string6 = false;
+	    $scope.string7 = false;
+	    
+	    $scope.toggle = function() {
+	        $scope.string = !$scope.string;
+	    };
+	    
+	    $scope.toggle1 = function() {
+	        $scope.string1 = !$scope.string1;
+	    };
+	    $scope.toggle2 = function() {
+	        $scope.string2 = !$scope.string2;
+	    };
+	    $scope.toggle3 = function() {
+	        $scope.string3 = !$scope.string3;
+	    };
+	    $scope.toggle4 = function() {
+	        $scope.string4 = !$scope.string4;
+	    };
+	    $scope.toggle5 = function() {
+	        $scope.string5 = !$scope.string5;
+	    };
+	    $scope.toggle6 = function() {
+	        $scope.string6 = !$scope.string6;
+	    };
+	    $scope.toggle7 = function() {
+	        $scope.string7 = !$scope.string7;
+	    };
+	    
+	});
+	
+	
+	
+	myProgram.controller('exceptionHendalingCtrl', function($scope) {
+		
+	    $scope.exceptionHendaling = false;
+	    $scope.exceptionHendaling1 = false;
+	    $scope.exceptionHendaling2 = false;
+	    $scope.exceptionHendaling3 = false;
+	    $scope.exceptionHendaling4 = false;
+	    $scope.exceptionHendaling5 = false;
+	    $scope.exceptionHendaling6 = false;
+	    $scope.exceptionHendaling7 = false;
+	    
+	    $scope.toggle = function() {
+	        $scope.exceptionHendaling = !$scope.exceptionHendaling;
+	    };
+	    
+	    $scope.toggle1 = function() {
+	        $scope.exceptionHendaling1 = !$scope.exceptionHendaling1;
+	    };
+	    $scope.toggle2 = function() {
+	        $scope.exceptionHendaling2 = !$scope.exceptionHendaling2;
+	    };
+	    $scope.toggle3 = function() {
+	        $scope.exceptionHendaling3 = !$scope.exceptionHendaling3;
+	    };
+	    $scope.toggle4 = function() {
+	        $scope.exceptionHendaling4 = !$scope.exceptionHendaling4;
+	    };
+	    $scope.toggle5 = function() {
+	        $scope.exceptionHendaling5 = !$scope.exceptionHendaling5;
+	    };
+	    $scope.toggle6 = function() {
+	        $scope.exceptionHendaling6 = !$scope.exceptionHendaling6;
+	    };
+	    $scope.toggle7 = function() {
+	        $scope.exceptionHendaling7 = !$scope.exceptionHendaling7;
+	    };
+	    
+	});
+	
+	
+	
+	myProgram.controller('collectionCtrl', function($scope) {
+		
+	    $scope.collection = false;
+	    $scope.collection1 = false;
+	    $scope.collection2 = false;
+	    $scope.collection3 = false;
+	    $scope.collection4 = false;
+	    $scope.collection5 = false;
+	    $scope.collection6 = false;
+	    $scope.collection7 = false;
+	    
+	    $scope.toggle = function() {
+	        $scope.collection = !$scope.collection;
+	    };
+	    
+	    $scope.toggle1 = function() {
+	        $scope.collection1 = !$scope.collection1;
+	    };
+	    $scope.toggle2 = function() {
+	        $scope.collection2 = !$scope.collection2;
+	    };
+	    $scope.toggle3 = function() {
+	        $scope.collection3 = !$scope.collection3;
+	    };
+	    $scope.toggle4 = function() {
+	        $scope.collection4 = !$scope.collection4;
+	    };
+	    $scope.toggle5 = function() {
+	        $scope.collection5 = !$scope.collection5;
+	    };
+	    $scope.toggle6 = function() {
+	        $scope.collection6 = !$scope.collection6;
+	    };
+	    $scope.toggle7 = function() {
+	        $scope.collection7 = !$scope.collection7;
+	    };
+	    
+	});
+	
+	
+	
+	myProgram.controller('multiThradingCtrl', function($scope) {
+		
+	    $scope.multiThrading = false;
+	    $scope.multiThrading1 = false;
+	    $scope.multiThrading2 = false;
+	    $scope.multiThrading3 = false;
+	    $scope.multiThrading4 = false;
+	    $scope.multiThrading5 = false;
+	    $scope.multiThrading6 = false;
+	    $scope.multiThrading7 = false;
+	    
+	    $scope.toggle = function() {
+	        $scope.multiThrading = !$scope.multiThrading;
+	    };
+	    
+	    $scope.toggle1 = function() {
+	        $scope.multiThrading1 = !$scope.multiThrading1;
+	    };
+	    $scope.toggle2 = function() {
+	        $scope.multiThrading2 = !$scope.multiThrading2;
+	    };
+	    $scope.toggle3 = function() {
+	        $scope.multiThrading3 = !$scope.multiThrading3;
+	    };
+	    $scope.toggle4 = function() {
+	        $scope.multiThrading4 = !$scope.multiThrading4;
+	    };
+	    $scope.toggle5 = function() {
+	        $scope.multiThrading5 = !$scope.multiThrading5;
+	    };
+	    $scope.toggle6 = function() {
+	        $scope.multiThrading6 = !$scope.multiThrading6;
+	    };
+	    $scope.toggle7 = function() {
+	        $scope.multiThrading7 = !$scope.multiThrading7;
+	    };
+	    
+	});
+	
+	
+	
+	myProgram.controller('dateCtrl', function($scope) {
+		
+	    $scope.date = false;
+	    $scope.date1 = false;
+	    $scope.date2 = false;
+	    $scope.date3 = false;
+	    $scope.date4 = false;
+	    $scope.date5 = false;
+	    $scope.date6 = false;
+	    $scope.date7 = false;
+	    
+	    $scope.toggle = function() {
+	        $scope.date = !$scope.date;
+	    };
+	    
+	    $scope.toggle1 = function() {
+	        $scope.date1 = !$scope.date1;
+	    };
+	    $scope.toggle2 = function() {
+	        $scope.date2 = !$scope.date2;
+	    };
+	    $scope.toggle3 = function() {
+	        $scope.date3 = !$scope.date3;
+	    };
+	    $scope.toggle4 = function() {
+	        $scope.date4 = !$scope.date4;
+	    };
+	    $scope.toggle5 = function() {
+	        $scope.date5 = !$scope.date5;
+	    };
+	    $scope.toggle6 = function() {
+	        $scope.date6 = !$scope.date6;
+	    };
+	    $scope.toggle7 = function() {
+	        $scope.date7 = !$scope.date7;
+	    };
+	    
+	});
+	
+	
+	
+	myProgram.controller('jdbcConnectionCtrl', function($scope) {
+		
+	    $scope.jdbcConnection = false;
+	    $scope.jdbcConnection1 = false;
+	    $scope.jdbcConnection2 = false;
+	    $scope.jdbcConnection3 = false;
+	    $scope.jdbcConnection4 = false;
+	    $scope.jdbcConnection5 = false;
+	    $scope.jdbcConnection6 = false;
+	    $scope.jdbcConnection7 = false;
+	    
+	    $scope.toggle = function() {
+	        $scope.jdbcConnection = !$scope.jdbcConnection;
+	    };
+	    
+	    $scope.toggle1 = function() {
+	        $scope.jdbcConnection1 = !$scope.jdbcConnection1;
+	    };
+	    $scope.toggle2 = function() {
+	        $scope.jdbcConnection2 = !$scope.jdbcConnection2;
+	    };
+	    $scope.toggle3 = function() {
+	        $scope.jdbcConnection3 = !$scope.jdbcConnection3;
+	    };
+	    $scope.toggle4 = function() {
+	        $scope.jdbcConnection4 = !$scope.jdbcConnection4;
+	    };
+	    $scope.toggle5 = function() {
+	        $scope.jdbcConnection5 = !$scope.jdbcConnection5;
+	    };
+	    $scope.toggle6 = function() {
+	        $scope.jdbcConnection6 = !$scope.jdbcConnection6;
+	    };
+	    $scope.toggle7 = function() {
+	        $scope.jdbcConnection7 = !$scope.jdbcConnection7;
+	    };
+	    
+	});
+	
+	
+	
+	myProgram.controller('questionPaperCtrl', function($scope) {
+		
+	    $scope.questionPaper = false;
+	    $scope.questionPaper1 = false;
+	    $scope.questionPaper2 = false;
+	    $scope.questionPaper3 = false;
+	    $scope.questionPaper4 = false;
+	    $scope.questionPaper5 = false;
+	    $scope.questionPaper6 = false;
+	    $scope.questionPaper7 = false;
+	    
+	    $scope.toggle = function() {
+	        $scope.questionPaper = !$scope.questionPaper;
+	    };
+	    
+	    $scope.toggle1 = function() {
+	        $scope.questionPaper1 = !$scope.questionPaper1;
+	    };
+	    $scope.toggle2 = function() {
+	        $scope.questionPaper2 = !$scope.questionPaper2;
+	    };
+	    $scope.toggle3 = function() {
+	        $scope.questionPaper3 = !$scope.questionPaper3;
+	    };
+	    $scope.toggle4 = function() {
+	        $scope.questionPaper4 = !$scope.questionPaper4;
+	    };
+	    $scope.toggle5 = function() {
+	        $scope.questionPaper5 = !$scope.questionPaper5;
+	    };
+	    $scope.toggle6 = function() {
+	        $scope.questionPaper6 = !$scope.questionPaper6;
+	    };
+	    $scope.toggle7 = function() {
+	        $scope.questionPaper7 = !$scope.questionPaper7;
+	    };
+	    
+	});
+	
+	
+	
+	myProgram.controller('suggetionPaperCtrl', function($scope) {
+		
+	    $scope.suggetionPaper = false;
+	    $scope.suggetionPaper1 = false;
+	    $scope.suggetionPaper2 = false;
+	    $scope.suggetionPaper3 = false;
+	    $scope.suggetionPaper4 = false;
+	    $scope.suggetionPaper5 = false;
+	    $scope.suggetionPaper6 = false;
+	    $scope.suggetionPaper7 = false;
+	    
+	    $scope.toggle = function() {
+	        $scope.suggetionPaper = !$scope.suggetionPaper;
+	    };
+	    
+	    $scope.toggle1 = function() {
+	        $scope.suggetionPaper1 = !$scope.suggetionPaper1;
+	    };
+	    $scope.toggle2 = function() {
+	        $scope.suggetionPaper2 = !$scope.suggetionPaper2;
+	    };
+	    $scope.toggle3 = function() {
+	        $scope.suggetionPaper3 = !$scope.suggetionPaper3;
+	    };
+	    $scope.toggle4 = function() {
+	        $scope.suggetionPaper4 = !$scope.suggetionPaper4;
+	    };
+	    $scope.toggle5 = function() {
+	        $scope.suggetionPaper5 = !$scope.suggetionPaper5;
+	    };
+	    $scope.toggle6 = function() {
+	        $scope.suggetionPaper6 = !$scope.suggetionPaper6;
+	    };
+	    $scope.toggle7 = function() {
+	        $scope.suggetionPaper7 = !$scope.suggetionPaper7;
+	    };
+	    
+	});
+	
+	
+	
+	myProgram.controller('quizCtrl', function($scope) {
+		
+	    $scope.quiz = false;
+	    $scope.quiz1 = false;
+	    $scope.quiz2 = false;
+	    $scope.quiz3 = false;
+	    $scope.quiz4 = false;
+	    $scope.quiz5 = false;
+	    $scope.quiz6 = false;
+	    $scope.quiz7 = false;
+	    
+	    $scope.toggle = function() {
+	        $scope.quiz = !$scope.quiz;
+	    };
+	    
+	    $scope.toggle1 = function() {
+	        $scope.quiz1 = !$scope.quiz1;
+	    };
+	    $scope.toggle2 = function() {
+	        $scope.quiz2 = !$scope.quiz2;
+	    };
+	    $scope.toggle3 = function() {
+	        $scope.quiz3 = !$scope.quiz3;
+	    };
+	    $scope.toggle4 = function() {
+	        $scope.quiz4 = !$scope.quiz4;
+	    };
+	    $scope.toggle5 = function() {
+	        $scope.quiz5 = !$scope.quiz5;
+	    };
+	    $scope.toggle6 = function() {
+	        $scope.quiz6 = !$scope.quiz6;
+	    };
+	    $scope.toggle7 = function() {
+	        $scope.quiz7 = !$scope.quiz7;
+	    };
+	    
+	});
+	
+	
+	
+	myProgram.controller('askQuestionCtrl', function($scope) {
+		
+	    $scope.askQuestion = false;
+	    $scope.askQuestion1 = false;
+	    $scope.askQuestion2 = false;
+	    $scope.askQuestion3 = false;
+	    $scope.askQuestion4 = false;
+	    $scope.askQuestion5 = false;
+	    $scope.askQuestion6 = false;
+	    $scope.askQuestion7 = false;
+	    
+	    $scope.toggle = function() {
+	        $scope.askQuestion = !$scope.askQuestion;
+	    };
+	    
+	    $scope.toggle1 = function() {
+	        $scope.askQuestion1 = !$scope.askQuestion1;
+	    };
+	    $scope.toggle2 = function() {
+	        $scope.askQuestion2 = !$scope.askQuestion2;
+	    };
+	    $scope.toggle3 = function() {
+	        $scope.askQuestion3 = !$scope.askQuestion3;
+	    };
+	    $scope.toggle4 = function() {
+	        $scope.askQuestion4 = !$scope.askQuestion4;
+	    };
+	    $scope.toggle5 = function() {
+	        $scope.askQuestion5 = !$scope.askQuestion5;
+	    };
+	    $scope.toggle6 = function() {
+	        $scope.askQuestion6 = !$scope.askQuestion6;
+	    };
+	    $scope.toggle7 = function() {
+	        $scope.askQuestion7 = !$scope.askQuestion7;
+	    };
+	    
+	});
+	
+	
+	
+	
+	

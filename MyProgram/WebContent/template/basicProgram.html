@@ -1,0 +1,436 @@
+
+<div class="pagePaddingBottom" id="basicProgram">
+    
+    <span class="icons arrowDownWhite inlBlk rel"></span>
+    <h2 style="text-align: center;" >Java Basic Programming Concept </h2>
+
+    <div class="styleShet" ng-click="toggle()">
+        <h4 id="click">
+            Hello World<span ng-hide ="basicPro" class= "caretright" ></span><span ng-show="basicPro" class= "caretrightUp" ></span>
+        </h4>
+    </div>
+    <div id="tg" ng-show="basicPro" class="view" >
+        <pre class="viewPre">
+public class HelloWorld
+{
+    public static void main(String[] args) 
+    {
+        System.out.println("Hello World!");
+    }
+}
+        </pre>
+    </div>
+
+    <!--            <div class="styleShet" ng-click="toggle1()">
+                    <h4>
+                        List any five features of Java? <span ng-hide ="basicPro1" class= "caretright" ></span><span ng-show="basicPro1" class= "caretrightUp" ></span>
+                    </h4>
+                </div>
+    
+                <P ng-show="basicPro1" class="view">Some features include Object
+                    Oriented, Platform Independent, Robust, Interpreted, Multi-threaded
+                </P>-->
+
+
+    <div class="styleShet" ng-click="toggle2()">
+        <h4>
+            Prime Number  <span ng-hide ="basicPro2" class= "caretright" ></span><span ng-show="basicPro2" class= "caretrightUp" ></span>
+        </h4>
+    </div>
+    <div ng-show="basicPro2" class="view" >
+        <pre class="viewPre">
+// To check  Prime number 
+public class Prime 
+{
+    public static void main(String[] args) 
+    {
+        java.util.Scanner scn=new java.util.Scanner(System.in);
+        System.out.println("Enter the number to Chake");
+        int n =scn.nextInt();
+        int i;
+        int a=0;
+        if(n<=1)
+        {
+            System.out.println("Enter the invalid code");
+        }
+        else
+        {
+            for(i=2;i< n;i++)
+            { 
+                if(n%i==0)
+                {
+                    a=2;
+                    break;
+                }
+                System.out.println(i);
+            }
+            if(a==0)
+            {
+                System.out.println("The number "+n+" is PRIME");
+            }
+            else System.out.println("The number "+n+" is NOT a PRIME");
+        }
+    }
+}
+-------------------------------------------------------------------
+//To print Prime number 1 to n
+public class PrimeNumber 
+{
+    public static void main(String[] args) 
+    {
+        java.util.Scanner scn= new java.util.Scanner(System.in);
+        System.out.println("Enter how many number 1 to print ");
+        int i=scn.nextInt();
+        System.out.println("Prime number is ");
+        for(int j=1;j<=i;j++)
+        {
+            if(!m1(j))
+        System.out.println(j);
+        }
+    }
+    static boolean m1(int a)
+    {
+        if(a<=1)  return false;
+        for(int i=2;i< a;i++)
+        {
+                if(a%i==0) return false;
+        }
+        return true;
+    }
+}
+        </pre>
+    </div>
+
+    <div class="styleShet" ng-click="toggle3()">
+        <h4>
+            Alphabet print <span ng-hide ="basicPro3" class= "caretright" ></span><span ng-show="basicPro3" class= "caretrightUp" ></span>
+        </h4>
+    </div>
+    <div ng-show="basicPro3" class="view" >
+        <pre class="viewPre">		 
+public class AlphabetBig{
+    public static void main(String[] args) {
+        for(int i=65; i<=90;i++)
+        {
+            System.out.print((char)i+ "  ");
+        }
+    }
+}
+-----------------------------------------------------------------------
+public class AlphabetSmall {
+
+    public static void main(String[] args) {
+        for(int i=97; i<=122;i++)
+        {
+            System.out.print((char)i+ "  ");
+        }
+    }
+}
+        </pre>
+    </div>
+
+    <div class="styleShet" ng-click="toggle4()">
+        <h4>
+            Day Print in Switch Case <span ng-hide ="basicPro4" class= "caretright" ></span><span ng-show="basicPro4" class= "caretrightUp" ></span>
+        </h4>
+    </div>
+    <div ng-show="basicPro4" class="view" >
+        <pre class="viewPre">
+public class Day 
+{
+    public static void main(String[] args) 
+    {
+        java.util.Scanner scn = new java.util.Scanner (System.in);
+        System.out.println("Entre the valur of N ");
+        int n= scn.nextInt();
+        switch(n)
+        {
+            case 1:
+                    System.out.println("SUNDAY");
+                        break;
+            case 2:
+                    System.out.println("MONDAY");
+                        break;
+            case 3:
+                    System.out.println("TUESDAY");
+                        break;
+            case 4:
+                    System.out.println("WEDNESAY");
+                        break;
+            case 5:
+                    System.out.println("THURSTDAY");
+                        break;
+            case 6:
+                    System.out.println("FRYDAY");
+                        break;
+            case 7:
+                    System.out.println("SATARDAY");
+                        break;
+            default:
+                    System.out.println("Enter invalid input ");
+        }
+
+    }
+}
+   
+        </pre>
+    </div>
+
+
+
+    <div class="styleShet" ng-click="toggle5()">
+        <h4>
+            MethodOverloading Example <span ng-hide ="basicPro5" class= "caretright" ></span><span ng-show="basicPro5" class= "caretrightUp" ></span>
+        </h4>
+    </div>
+    <div ng-show="basicPro5" class="view" >
+        <pre class="viewPre">
+public class MethodOverloading_AddNumber
+{
+    public static void main(String[] args) 
+    {
+        System.out.println("Execution start");
+        sum(2,4);
+        sum(55);
+        sum(2,5,9);
+
+    }
+    static void sum(int a)
+    {
+        System.out.println("execution sum "+a);
+    }
+    static void sum(int a, int b)
+    {
+        System.out.println("execution sum(int a ,int b) "+(a+b));
+    }
+    static void sum(int a, int b,int c)
+    {
+        System.out.println("execution sum(int a ,int b,int c) "+(a+b+c));
+    } 
+}
+        </pre>
+    </div>
+
+
+    <div class="styleShet"  ng-click="toggle7()">
+        <h4>
+            Print 1 to N number <span ng-hide ="basicPro7" class= "caretright" ></span><span ng-show="basicPro7" class= "caretrightUp" ></span>
+        </h4>
+    </div>
+    <div ng-show="basicPro7" class="view" >    
+        <pre class="viewPre">
+public class Pint_Number {
+    public static void main(String[] args) {
+        java.util.Scanner sc=new java.util.Scanner(System.in);
+        System.out.print("Enter value >- ");
+        int n =sc.nextInt();
+        for (int i = 1; i <= n; i++) {
+            System.out.println(i);
+        }
+    }
+}
+        </pre>
+    </div>
+
+    <div class="styleShet" ng-click="toggle6()">
+        <h4>
+            1 to N print with out any loop <span ng-hide ="basicPro6" class= "caretright" ></span><span ng-show="basicPro6" class= "caretrightUp" ></span>
+        </h4>
+    </div>
+    <div ng-show="basicPro6" class="view" >
+        <pre class="viewPre">
+public class PrintNumber
+{
+    public static void main(String[] args) 
+    { 
+        System.out.println("EXECUTION START ");
+        java.util.Scanner sc=new java.util.Scanner(System.in);
+        System.out.print("Enter value >- ");
+        int n =sc.nextInt();
+        System.out.println("the value");
+        m1(1,n);
+
+    }
+    static void m1(int a ,int b)
+    {   
+        System.out.println("           "+a);
+        if(a>=b) return;
+        m1(++a,b);
+    }
+}
+        </pre>
+    </div>
+
+
+    <div class="styleShet" ng-click="toggle8()">
+        <h4>
+            Factriol Program <span ng-hide ="basicPro8" class= "caretright" ></span><span ng-show="basicPro8" class= "caretrightUp" ></span>
+        </h4>
+    </div>
+    <div ng-show="basicPro8" class="view" >
+        <pre class="viewPre">
+public class Factriol{
+    public static void main(String[] args) {
+        java.util.Scanner scn = new java.util.Scanner(System.in);
+        System.out.println("Entre the valur of N ");
+        int n = scn.nextInt();
+        long j = 1;
+        if (n < 0) {
+                System.out.println("Enter the inviled input ");
+        } else if (n == 0) {
+            System.out.println("Facrial is= 1");
+        } else
+
+        {
+            for (int i = 1; i <= n; i++) {
+                j = j * i;
+            }
+
+            System.out.println("Fctriol is = " + j);
+        }
+    }
+}
+------------------------------------------------------------------
+public class FactFunc {
+
+    public static void main(String[] args) 
+    { 
+        java.util.Scanner scn=new java.util.Scanner(System.in);
+        System.out.println("Enter number ");
+        int n= scn.nextInt();
+        System.out.println("= "+fac(n));
+    }
+    static int fac(int a)
+    {
+        if (a==0)return 1;
+        //int n=fac(a-1);
+        return a*fac(--a);  //return a*n;
+    }
+}
+        </pre>
+    </div>
+
+
+    <div class="styleShet" ng-click="toggle9()">
+        <h4>
+            Factrioal <span ng-hide ="basicPro9" class= "caretright" ></span><span ng-show="basicPro9" class= "caretrightUp" ></span>
+        </h4>
+    </div>
+    <div ng-show="basicPro9" class="view" >
+    <pre class="viewPre">
+public class Factroial {
+    public static void main(String[] args) {
+        java.util.Scanner scn = new java.util.Scanner(System.in);
+        System.out.println("Enter the fibbonick Nth serise No");
+        int n = scn.nextInt();
+        int i = 0, j = 1, sum;
+        System.out.print("Fibbonicak serise is >-- ");
+        if (n < 1)
+            System.out.print(" You Enter the wrong input ");
+        else if (n == 1) {
+            System.out.print(i + " ");
+        } else {
+            System.out.print(i + " ");
+            System.out.print(j + " ");
+            for (int a = 3; a <= n; a++) {
+                sum = i + j;
+                System.out.print(sum + " ");
+                i = j;
+                j = sum;
+            }
+        }
+    }
+}
+        </pre>
+    </div>
+
+
+
+    <div class="styleShet" ng-click="toggle10()">
+        <h4>
+            Amstrong Number Checking <span ng-hide ="basicPro10" class= "caretright" ></span><span ng-show="basicPro10" class= "caretrightUp" ></span>
+        </h4>
+    </div>
+    <div ng-show="basicPro10" class="view" >
+    <pre class="viewPre">
+public class AmstrongNumber 
+{
+    public static void main(String[] args) 
+    {
+        java.util.Scanner scn= new java.util.Scanner (System.in);
+        System.out.println("Enter The Number ");
+        int n=scn.nextInt();
+        int k=n;
+        int c;
+        int a=0;
+        while(n>0)
+        {
+            c=n%10;
+            n=n/10;
+            a=a+(c*c*c);
+        }
+        if(a==k)
+        System.out.println(k+" =it is Amstromg number");
+        else
+        System.out.println("it is not Amstromg number");
+    }
+}
+         </pre>
+    </div>
+
+    <div class="styleShet" ng-click="toggle11()">
+        <h4>
+            Swap Two number <span ng-hide ="basicPro11" class= "caretright" ></span><span ng-show="basicPro11" class= "caretrightUp" ></span>
+        </h4>
+    </div>
+    <div ng-show="basicPro11" class="view" >
+    <pre class="viewPre">
+public class SwapingNumber {
+    public static void main(String [] args){
+        swap(5,6);
+    }
+    public static void swap(int a, int b){
+        int temp =a;
+        a=b;
+        b=temp;
+        System.out.println("a= "+a+", b="+b);
+    }
+}
+    ----------------------------------------------------------
+// Swaping programe with out third Variable
+public class SwapingWithOutThirdVariable {
+    public static void main(String [] args){
+        swapNumb(2,4);
+    }
+    public static void swapNumb(int a, int b){
+        a=a+b;
+        b=a-b;
+        a=a-b;
+        System.out.println("a= "+a+", b="+b);
+    }
+}
+        </pre>
+    </div>
+
+    <!--
+                <div class="styleShet" ng-click="toggle12()">
+                    <h4>
+                        {heading Name} <span ng-hide ="basicPro12" class= "caretright" ></span><span ng-show="basicPro12" class= "caretrightUp" ></span>
+                    </h4>
+                </div>
+                <pre ng-show="basicPro12" class="view">
+               {keep defination }
+                </pre>
+    
+    
+    
+                <div class="styleShet" ng-click="toggle13()">
+                    <h4>
+                        {heading Name} <span ng-hide ="basicPro13" class= "caretright" ></span><span ng-show="basicPro13" class= "caretrightUp" ></span>
+                    </h4>
+                </div>
+                <pre ng-show="basicPro13" class="view">
+               {keep defination }
+                </pre>-->
+
+</div>

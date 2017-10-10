@@ -1,0 +1,35 @@
+<div class="push-to-center"  >
+
+    <div class="row">
+        <div class="col-lg-6 col-lg-offset-3
+             col-md-8 col-md-offset-2 
+             col-sm-10 col-sm-offset-1
+             col-xs-11"  ng-controller="loginCtrl">             
+
+            <div class="form-group" style="margin-top:100px" > 
+                <input type="text" placeholder="Login Name" id="userMail"   class="form-control input-lg" ng-model="mailid" name="loginName" required="required"/>
+                <label  ng-show="myForm.loginName.$touched && myForm.loginName.$invalid" style="color:red;margin-top:17px">Name is required.</label>      
+            </div>
+
+            <div class="form-group"> 
+                <input type="password" class="form-control input-lg" id="userPassword" placeholder="Password" required="required" ng-model="password" name="password"/>
+                <label  ng-show="myForm.password.$touched && myForm.password.$invalid" style="color:red;margin-top:17px">Password is required.</label>
+            </div>
+
+            <div class="form-group">                     
+                <button type="submit"  class="btn btn-lg btn-primary btn-block" ng-click="isLogin()">Sign in</button>
+            </div>
+
+            <div class="row forgotPassAndPolicy" style="margin-top:40px;" >
+                <div class="col-lg-6 col-xs-5 col-sm-3 col-md-3">
+                    <a style="color:white;">Privacy Policy</a>
+                </div>
+                <div class="col-lg-4 col-md-offset-8 col-sm-offset-8 col-xs-offset-6" style="float:right">
+                    <a href="#/forgetPassword" style="color:white">Forgot Password?</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div> 
+

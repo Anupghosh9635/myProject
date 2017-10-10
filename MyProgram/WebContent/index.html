@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html ng-app="myModuleProgram">
+    <head>
+        <title>Programming Tutorial</title>
+        <meta charset="utf-8" />
+
+	<!-- ************ IMPORT ALL THE CSS AND JS FILE ************ -->
+
+        <meta http-equiv="Access-Control-Allow-Origin" content="*">
+        <meta name="viewport" content="user-scalable=yes, initial-scale=1, maximum-scale=2, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <script type="text/javascript" src="js/angular.min.js"></script>
+        <script type="text/javascript" src="js/angular-route.min.js"></script>
+        <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+        <script type="text/javascript" src="js/angular-sanitize.js"></script>
+
+        <script type="text/javascript" src="js/index.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+        <link href="css/js-image-slider.css" rel="stylesheet" type="text/css" />
+        <script src="js/js-image-slider.js" type="text/javascript"></script>
+        <script src="js/panzoom.js" type="text/javascript"></script>
+
+        <script src='https://maps.googleapis.com/maps/api/js?key=AIzaSyAd1xMYT1bt99qtFWQEzXiRBvORDWHgPtk&libraries=places'></script>
+	<script type="text/javascript" src="cordova.js"></script>
+
+        <link rel=icon href=favicon.ico>
+    </head>
+    <body class="homeFront">
+
+<!--    <body ng-controller="NaviBarCtrl">-->
+
+	    <!-- ************ START HEADER PART ************ -->
+        <nav class="navbar navbar-inverse navi navbar-fixed-top" >
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <div class="navbar-left-toggle" style="float: left !important;">
+                    </div>
+                    
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"  
+                            style="background-color:rgba(0,0,0,0) !important; color:white!important; border:1px solid transparent !important; margin-right:-5px !important;padding: 9px 5px!important; ">
+                        <span class="glyphicon glyphicon-option-vertical"></span>
+<!--                        <span class="icon-bar"></span> <span class="icon-bar"></span> <span
+                            class="icon-bar"></span>-->
+                    </button>
+                    <a class="navbar-brand" href="#/home" style="margin-left: 30px;"><b style="color:#b3f6ff;font-size:22px;"> Programming Tutorial </b></a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar" >
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#/home">Home</a></li>
+                    </ul>
+
+                    <form class="navbar-form navbar-right">
+                        <div class="form-group" style="margin-left: 20px;">
+                            <input type="text" class="form-control" placeholder="Login Name" name="loginName" ng-model="mailid" >
+                        </div>
+                        <div class="form-group" style="margin-left: 20px;">
+                            <input type="text" class="form-control" placeholder="Password" name="password" ng-model="password">
+                        </div>
+                        <div class="navbar-nav navbar-right" >
+
+                            <li style="margin-left:20px;margin-top:5px" ng-click="isLogin()">
+                                <a href="#/"><span class="glyphicon glyphicon-log-in"></span>Login</a>
+                            </li>
+
+                            <li style="margin-left:20px; margin-right:20px; margin-top:5px;" >
+                                <a href="#signUp" ng-click ="hideMenuBar()"><span class="glyphicon glyphicon-user"></span>Sign Up</a>
+                            </li>
+
+                        </div>
+<!--                        <div class="navbar-nav navbar-right" ng-hide="" >
+
+                            <li style="margin-left:20px;margin-top:5px" ng-click="isLogin()"><a href="#/"><span class="glyphicon glyphicon-user"></span>
+                                    username</a></li>
+
+                            <li style="margin-left:20px;margin-right:20px;margin-top:5px"><a href="#signUp" ng-click ="hideMenuBar()"><span class="glyphicon glyphicon-log-out"></span>
+                                    Logout </a></li>
+
+                        </div>-->
+
+                    </form>
+
+                </div>
+            </div>
+        </nav>
+
+<!--	<div ng-controller="historyCtrl">
+	    <p id="top-right" ng-show="isMobile">
+		<span class="glyphicon glyphicon-circle-arrow-right"  ng-click="goToForrword()" ></span>
+	    </p>
+	    <p id="top-left" ng-show="isMobile">
+		<span class="glyphicon glyphicon-circle-arrow-left"  ng-click="goToBackword()"  ></span>
+	    </p>
+	</div>-->
+	     <!-- ************ START CONTENT MENU SECTION ************ -->
+
+        <div class="container-fluid text-center divSt backGroundImg">
+            <div class="row content" >
+
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#expendBar"
+                        style="float: left !important; position: fixed; top:4px; left: 5px; z-index: 1030; border: 2px red solid; border-color: #777 !important;">
+                        <span class="icon-bar" style="background-color: #fff !important;"></span>
+                        <span class="icon-bar" style="background-color: #fff !important;"></span> 
+                        <span class="icon-bar" style="background-color: #fff !important;"></span> 
+                    </button>
+                <div ng-controller="menuBar" ng-show="isMobile" id="expendBar">
+                    <div class="sidenav naviBar" style="width:80% !important;" ng-include="'template/navigationMenu.html'"></div>
+                </div>
+                
+<!--                    <div ng-controller="menuBar" ng-show="isMobile" id="expendBar" >
+                        <div ng-hide="menuBarAll" class="naviBackImgPrev*">
+                            <div class="hamBarger" ng-click="toggle5()"  >&#9776;</div>
+                            <span ng-show="menuBarAll" class= "closebtn"  ng-click="toggle5()" > &times;</span>
+                        </div>
+                        <div ng-show="menuBarAll" class="naviBackImg*">
+                            <div class="hamBarger" ng-click="toggle5()"  >&#9776;</div>
+                            <span ng-show="menuBarAll" class= "closebtn"  ng-click="toggle5()" > &times;</span>
+                        </div>
+                         <div class="col-xs-12 col-sm-3 col-lg-2 col-md-3 sidenav scroll naviBar" ng-include="'template/navigationMenu.html'" ng-show="menuBarAll"></div>
+                    </div>-->
+                
+                <div class="col-xs-12 col-sm-3 col-lg-2 col-md-3 sidenav scroll naviBar"  ng-controller="menuBar" ng-hide="isMobile">
+                    <div ng-include="'template/navigationMenu.html'"></div>
+                </div>
+
+	    <!-- ************ START DESCRIPTION PART OF ROUTING ************ -->
+
+                <div class=" col-xs-12 col-sm-9 col-lg-10 col-md-9 text-left scroll backGroundImg backGroundPosition ngViewSt " >
+
+                    <ng-view></ng-view>
+
+			 <!-- ************ SCROLL MENU ************ -->
+                    <p id="back-top" ng-show="isMobile">
+                        <span class="glyphicon glyphicon-circle-arrow-up" ></span>
+                    </p>
+
+                </div>
+            </div>
+        </div>
+
+	    <!-- ************ START FOOTER SECTION ************ -->
+        <footer>All program rights reserved. | Privacy Policy
+            <br/> Developed by <b style="font-size: 16px">Anup Ghosh</b>
+        </footer>
+
+
+    </body>
+
+<script>
+    $(document).ready(function(){
+	// hide #back-top first
+	$("#back-top").hide();
+
+	// fade in #back-top
+	$(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 100) {
+                    $('#back-top').fadeIn();
+                } else {
+                    $('#back-top').fadeOut();
+                }
+            });
+            // scroll body to 0px on click
+            $('#back-top span').click(function () {
+                $('body,html').animate({
+                    scrollTop: 0
+                }, 800);
+                return false;
+            });
+	});
+    });
+</script>
+
+</html>
