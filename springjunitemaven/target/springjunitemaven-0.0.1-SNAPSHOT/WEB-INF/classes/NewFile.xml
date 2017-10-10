@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Website travelSiteDcode="24600" CurrencyCode="USD" name="PriceLine">
+    <Hotel hotelCode="567156" dummy="" usersession="" name="Test Dubai">
+        <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType>
+         <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType>
+         <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType>
+         <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType>
+         <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType> <RoomType code="2789|Dbl1" name="Dbl Room" Updated="Y">
+            <Date id="2017-10-08" NPkgRate="99" PkgRate="" NSglRate="99" SglRate="">
+                <Rate NRate="99" Avail="" NAvail="16"></Rate>
+            </Date>
+        </RoomType>
+        <ParamList ProductType="RTConnect" values="|PkgRate|SglRate|Avail|Rate"/>
+    </Hotel>
+</Website>

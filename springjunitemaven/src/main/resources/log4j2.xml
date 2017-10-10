@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="INFO">
+    <Appenders> 
+        <!-- Generate rolling log for router with per hour interval policy -->
+        <!-- <RollingFile name="ProcessorRollingFile" fileName="${sys:catalina.home}/logs/WeblServer.log"
+                     filePattern="${sys:catalina.home}/logs/$${date:yyyy-MM-dd}/WeblServer-%d{yyyy-MM-dd-HH}-%i.log.gz"> -->   
+        
+        <RollingFile name="ProcessorRollingFile" fileName="D:\apache-tomcat-6.0.44-CoreService\logs\ClientWeblServer.log"
+                     filePattern="${sys:catalina.home}/logs/$${date:yyyy-MM-dd}/WeblServer-%d{yyyy-MM-dd-HH}-%i.log.gz">
+            <PatternLayout>
+    
+                <pattern>%d{dd-MM-yyyy HH:mm:ss} [%t] %-5p - %m%n</pattern>
+    
+            </PatternLayout>
+            <Policies>
+                <SizeBasedTriggeringPolicy size="500 MB"/>
+            </Policies>  
+            <DefaultRolloverStrategy max="100"/>
+        </RollingFile>
+
+        <!-- Register Async appender -->
+        <Async name="AsyncRollingFile">
+            <AppenderRef ref="ProcessorRollingFile" />
+        </Async>
+    </Appenders>
+    <Loggers>
+        <AsyncLogger name="root" level="INFO" additivity="false">
+            <AppenderRef ref="AsyncRollingFile" />
+        </AsyncLogger> 
+    </Loggers>
+</Configuration>

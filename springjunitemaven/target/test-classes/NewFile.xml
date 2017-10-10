@@ -1,0 +1,806 @@
+<Website travelSiteDcode="206000" CurrencyCode="EUR" name="RTSuiteTravel">
+    <Hotel hotelCode="56767" dummy="" usersession="" name="Test Hotel CMLive-Reservation">
+        <RoomType code="2100|STKBTVRM11" name="One Double Bed with Sofa Smoking-Book Now n Save" Updated="Y">
+            <Date id="2017-08-03" NTrpRate="3668" TrpRate="" NDblRate="3660" DblRate="">
+                <Rate NRate="3645"></Rate>
+            </Date>
+            <Date id="2017-08-04" NTrpRate="3668" TrpRate="" NDblRate="3660" DblRate="">
+                <Rate NRate="3645"></Rate>
+            </Date>
+            <Date id="2017-08-05" NTrpRate="3668" TrpRate="" NDblRate="3660" DblRate="">
+                <Rate NRate="3645"></Rate>
+            </Date>
+            <Date id="2017-08-06" NTrpRate="3668" TrpRate="" NDblRate="3660" DblRate="">
+                <Rate NRate="3645"></Rate>
+            </Date>
+            <Date id="2017-08-07" NTrpRate="3668" TrpRate="" NDblRate="3660" DblRate="">
+                <Rate NRate="3645"></Rate>
+            </Date>
+            <Date id="2017-08-08" NTrpRate="3668" TrpRate="" NDblRate="3660" DblRate="">
+                <Rate NRate="3645"></Rate>
+            </Date>
+            <Date id="2017-08-09" NTrpRate="3668" TrpRate="" NDblRate="3660" DblRate="">
+                <Rate NRate="3645"></Rate>
+            </Date>
+            <Date id="2017-08-10" NTrpRate="3668" TrpRate="" NDblRate="3660" DblRate="">
+                <Rate NRate="3645"></Rate>
+            </Date>
+            <Date id="2017-08-11" NTrpRate="3668" TrpRate="" NDblRate="3660" DblRate="">
+                <Rate NRate="3645"></Rate>
+            </Date>
+            <Date id="2017-08-12" NTrpRate="3668" TrpRate="" NDblRate="3660" DblRate="">
+                <Rate NRate="3645"></Rate>
+            </Date>
+            <Date id="2017-08-13" NTrpRate="3668" TrpRate="" NDblRate="3660" DblRate="">
+                <Rate NRate="3645"></Rate>
+            </Date>
+            <Date id="2017-08-14" NTrpRate="3668" TrpRate="" NDblRate="3660" DblRate="">
+                <Rate NRate="3645"></Rate>
+            </Date>
+            <Date id="2017-08-15" NTrpRate="3668" TrpRate="" NDblRate="3660" DblRate="">
+                <Rate NRate="3645"></Rate>
+            </Date>
+            <Date id="2017-08-16" NTrpRate="3668" TrpRate="" NDblRate="3660" DblRate="">
+                <Rate NRate="3645"></Rate>
+            </Date>
+            <Date id="2017-08-17" NTrpRate="3668" TrpRate="" NDblRate="3660" DblRate="">
+                <Rate NRate="3645"></Rate>
+            </Date>
+            <Date id="2017-08-18" NTrpRate="3668" TrpRate="" NDblRate="3660" DblRate="">
+                <Rate NRate="3645"></Rate>
+            </Date>
+            <Date id="2017-08-19" NTrpRate="3668" TrpRate="" NDblRate="3660" DblRate="">
+                <Rate NRate="3645"></Rate>
+            </Date>
+            <Date id="2017-08-20" NTrpRate="3668" TrpRate="" NDblRate="3660" DblRate="">
+                <Rate NRate="3645"></Rate>
+            </Date>
+            <Date id="2017-08-21" NTrpRate="3668" TrpRate="" NDblRate="3660" DblRate="">
+                <Rate NRate="3645"></Rate>
+            </Date>
+            <Date id="2017-08-22" NTrpRate="3668" TrpRate="" NDblRate="3660" DblRate="">
+                <Rate NRate="3645"></Rate>
+            </Date>
+            <Date id="2017-08-23" NTrpRate="3668" TrpRate="" NDblRate="3660" DblRate="">
+                <Rate NRate="3645"></Rate>
+            </Date>
+            <Date id="2017-08-24" NTrpRate="3668" TrpRate="" NDblRate="3660" DblRate="">
+                <Rate NRate="3645"></Rate>
+            </Date>
+            <Date id="2017-08-25" NTrpRate="3668" TrpRate="" NDblRate="3660" DblRate="">
+                <Rate NRate="3645"></Rate>
+            </Date>
+            <Date id="2017-08-26" NTrpRate="3668" TrpRate="" NDblRate="3660" DblRate="">
+                <Rate NRate="3645"></Rate>
+            </Date>
+            <Date id="2017-08-27" NTrpRate="3668" TrpRate="" NDblRate="3660" DblRate="">
+                <Rate NRate="3645"></Rate>
+            </Date>
+            <Date id="2017-08-28" NTrpRate="3668" TrpRate="" NDblRate="3660" DblRate="">
+                <Rate NRate="3645"></Rate>
+            </Date>
+            <Date id="2017-08-29" NTrpRate="3668" TrpRate="" NDblRate="3660" DblRate="">
+                <Rate NRate="3645"></Rate>
+            </Date>
+            <Date id="2017-08-30" NTrpRate="3668" TrpRate="" NDblRate="3660" DblRate="">
+                <Rate NRate="3645"></Rate>
+            </Date>
+            <Date id="2017-08-31" NTrpRate="3668" TrpRate="" NDblRate="3660" DblRate="">
+                <Rate NRate="3645"></Rate>
+            </Date>
+        </RoomType>
+        <RoomType code="2091|STKBTVRM2" name="Standard 1 double bed-Hot Deals Rate" Updated="Y">
+            <Date id="2017-08-03" NTrpRate="3668" TrpRate="" NDblRate="3660" DblRate="">
+                <Rate NRate="3645"></Rate>
+            </Date>
+            <Date id="2017-08-04" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-05" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-06" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-07" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-08" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-09" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-10" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-11" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-12" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-13" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-14" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-15" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-16" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-17" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-18" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-19" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-20" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-21" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-22" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-23" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-24" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-25" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-26" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-27" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-28" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-29" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-30" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-31" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+        </RoomType>
+        <RoomType code="2068|STR1KB" name="Standard Room with one king bed" Updated="Y">
+            <Date id="2017-08-03" NTrpRate="3668" TrpRate="" NDblRate="3660" DblRate="">
+                <Rate NRate="3645"></Rate>
+            </Date>
+            <Date id="2017-08-04" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-05" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-06" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-07" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-08" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-09" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-10" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-11" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-12" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-13" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-14" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-15" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-16" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-17" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-18" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-19" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-20" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-21" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-22" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-23" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-24" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-25" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-26" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-27" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-28" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-29" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-30" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-31" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+        </RoomType>
+        <RoomType code="2098|STKBTVRM9" name="Twin Room - Non Refundable - Advance Purchase - Continental Breakfast" Updated="Y">
+            <Date id="2017-08-03" NTrpRate="3668" TrpRate="" NDblRate="3660" DblRate="">
+                <Rate NRate="3645"></Rate>
+            </Date>
+            <Date id="2017-08-04" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-05" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-06" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-07" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-08" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-09" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-10" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-11" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-12" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-13" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-14" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-15" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-16" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-17" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-18" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-19" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-20" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-21" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-22" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-23" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-24" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-25" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-26" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-27" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-28" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-29" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-30" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-31" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+        </RoomType>
+        <RoomType code="2107|STKBTVRM18" name="Deluxe Hill View Room-Stay For Breakfast. Includes: Breakfast Buffet" Updated="Y">
+            <Date id="2017-08-03" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="3315"></Rate>
+            </Date>
+            <Date id="2017-08-04" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="3315"></Rate>
+            </Date>
+            <Date id="2017-08-05" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="3315"></Rate>
+            </Date>
+            <Date id="2017-08-06" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="3315"></Rate>
+            </Date>
+            <Date id="2017-08-07" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="3315"></Rate>
+            </Date>
+            <Date id="2017-08-08" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="3315"></Rate>
+            </Date>
+            <Date id="2017-08-09" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="3315"></Rate>
+            </Date>
+            <Date id="2017-08-10" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="3315"></Rate>
+            </Date>
+            <Date id="2017-08-11" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="3315"></Rate>
+            </Date>
+            <Date id="2017-08-12" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="3315"></Rate>
+            </Date>
+            <Date id="2017-08-13" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="3315"></Rate>
+            </Date>
+            <Date id="2017-08-14" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="3315"></Rate>
+            </Date>
+            <Date id="2017-08-15" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="3315"></Rate>
+            </Date>
+            <Date id="2017-08-16" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="3315"></Rate>
+            </Date>
+            <Date id="2017-08-17" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="3315"></Rate>
+            </Date>
+            <Date id="2017-08-18" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="3315"></Rate>
+            </Date>
+            <Date id="2017-08-19" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="3315"></Rate>
+            </Date>
+            <Date id="2017-08-20" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="3315"></Rate>
+            </Date>
+            <Date id="2017-08-21" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="3315"></Rate>
+            </Date>
+            <Date id="2017-08-22" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="3315"></Rate>
+            </Date>
+            <Date id="2017-08-23" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="3315"></Rate>
+            </Date>
+            <Date id="2017-08-24" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="3315"></Rate>
+            </Date>
+            <Date id="2017-08-25" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="3315"></Rate>
+            </Date>
+            <Date id="2017-08-26" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="3315"></Rate>
+            </Date>
+            <Date id="2017-08-27" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="3315"></Rate>
+            </Date>
+            <Date id="2017-08-28" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="3315"></Rate>
+            </Date>
+            <Date id="2017-08-29" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="3315"></Rate>
+            </Date>
+            <Date id="2017-08-30" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="3315"></Rate>
+            </Date>
+            <Date id="2017-08-31" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="3315"></Rate>
+            </Date>
+        </RoomType>
+        <RoomType code="2097|STKBTVRM8" name="Deluxe room-10% off on Food Includes: Breakfast Buffet" Updated="Y">
+            <Date id="2017-08-03" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="3315"></Rate>
+            </Date>
+            <Date id="2017-08-04" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="3315"></Rate>
+            </Date>
+            <Date id="2017-08-05" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="3315"></Rate>
+            </Date>
+            <Date id="2017-08-06" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="3315"></Rate>
+            </Date>
+            <Date id="2017-08-07" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="3315"></Rate>
+            </Date>
+            <Date id="2017-08-08" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="3315"></Rate>
+            </Date>
+            <Date id="2017-08-09" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="3315"></Rate>
+            </Date>
+            <Date id="2017-08-10" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="3315"></Rate>
+            </Date>
+            <Date id="2017-08-11" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="3315"></Rate>
+            </Date>
+            <Date id="2017-08-12" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="3315"></Rate>
+            </Date>
+            <Date id="2017-08-13" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="3315"></Rate>
+            </Date>
+            <Date id="2017-08-14" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="3315"></Rate>
+            </Date>
+            <Date id="2017-08-15" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="3315"></Rate>
+            </Date>
+            <Date id="2017-08-16" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="3315"></Rate>
+            </Date>
+            <Date id="2017-08-17" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="3315"></Rate>
+            </Date>
+            <Date id="2017-08-18" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="3315"></Rate>
+            </Date>
+            <Date id="2017-08-19" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="3315"></Rate>
+            </Date>
+            <Date id="2017-08-20" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="3315"></Rate>
+            </Date>
+            <Date id="2017-08-21" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="3315"></Rate>
+            </Date>
+            <Date id="2017-08-22" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="3315"></Rate>
+            </Date>
+            <Date id="2017-08-23" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="3315"></Rate>
+            </Date>
+            <Date id="2017-08-24" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="3315"></Rate>
+            </Date>
+            <Date id="2017-08-25" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="3315"></Rate>
+            </Date>
+            <Date id="2017-08-26" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="3315"></Rate>
+            </Date>
+            <Date id="2017-08-27" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="3315"></Rate>
+            </Date>
+            <Date id="2017-08-28" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="3315"></Rate>
+            </Date>
+            <Date id="2017-08-29" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="3315"></Rate>
+            </Date>
+            <Date id="2017-08-30" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="3315"></Rate>
+            </Date>
+            <Date id="2017-08-31" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="3315"></Rate>
+            </Date>
+        </RoomType>
+        <RoomType code="2099|STKBTVRM10" name="Double Room - Continental Breakfast + Free Wireless Internet" Updated="Y">
+            <Date id="2017-08-03" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="3315"></Rate>
+            </Date>
+            <Date id="2017-08-04" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="195"></Rate>
+            </Date>
+            <Date id="2017-08-05" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="195"></Rate>
+            </Date>
+            <Date id="2017-08-06" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="195"></Rate>
+            </Date>
+            <Date id="2017-08-07" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="195"></Rate>
+            </Date>
+            <Date id="2017-08-08" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="195"></Rate>
+            </Date>
+            <Date id="2017-08-09" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="195"></Rate>
+            </Date>
+            <Date id="2017-08-10" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="195"></Rate>
+            </Date>
+            <Date id="2017-08-11" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="195"></Rate>
+            </Date>
+            <Date id="2017-08-12" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="195"></Rate>
+            </Date>
+            <Date id="2017-08-13" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="195"></Rate>
+            </Date>
+            <Date id="2017-08-14" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="195"></Rate>
+            </Date>
+            <Date id="2017-08-15" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="195"></Rate>
+            </Date>
+            <Date id="2017-08-16" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="195"></Rate>
+            </Date>
+            <Date id="2017-08-17" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="195"></Rate>
+            </Date>
+            <Date id="2017-08-18" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="195"></Rate>
+            </Date>
+            <Date id="2017-08-19" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="195"></Rate>
+            </Date>
+            <Date id="2017-08-20" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="195"></Rate>
+            </Date>
+            <Date id="2017-08-21" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="195"></Rate>
+            </Date>
+            <Date id="2017-08-22" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="195"></Rate>
+            </Date>
+            <Date id="2017-08-23" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="195"></Rate>
+            </Date>
+            <Date id="2017-08-24" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="195"></Rate>
+            </Date>
+            <Date id="2017-08-25" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="195"></Rate>
+            </Date>
+            <Date id="2017-08-26" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="195"></Rate>
+            </Date>
+            <Date id="2017-08-27" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="195"></Rate>
+            </Date>
+            <Date id="2017-08-28" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="195"></Rate>
+            </Date>
+            <Date id="2017-08-29" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="195"></Rate>
+            </Date>
+            <Date id="2017-08-30" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="195"></Rate>
+            </Date>
+            <Date id="2017-08-31" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="195"></Rate>
+            </Date>
+        </RoomType>
+        <RoomType code="2069|SSBEA215" name="Standard 2 Single Beds-Early Breaks Includes Breakfast Buffet" Updated="Y">
+            <Date id="2017-08-03" NTrpRate="3668" TrpRate="" NDblRate="3660" DblRate="">
+                <Rate NRate="3645"></Rate>
+            </Date>
+            <Date id="2017-08-04" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-05" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-06" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-07" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-08" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-09" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-10" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-11" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-12" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-13" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-14" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-15" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-16" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-17" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-18" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-19" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-20" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-21" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-22" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-23" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-24" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-25" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-26" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-27" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-28" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-29" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-30" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+            <Date id="2017-08-31" NTrpRate="236" TrpRate="" NDblRate="228" DblRate="">
+                <Rate NRate="213"></Rate>
+            </Date>
+        </RoomType>
+        <RoomType code="2093|STKBTVRM4" name="Double Basic Standard (Shared Bathroom) BnB" Updated="Y">
+            <Date id="2017-08-03" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="3315"></Rate>
+            </Date>
+            <Date id="2017-08-04" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="195"></Rate>
+            </Date>
+            <Date id="2017-08-05" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="195"></Rate>
+            </Date>
+            <Date id="2017-08-06" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="195"></Rate>
+            </Date>
+            <Date id="2017-08-07" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="195"></Rate>
+            </Date>
+            <Date id="2017-08-08" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="195"></Rate>
+            </Date>
+            <Date id="2017-08-09" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="195"></Rate>
+            </Date>
+            <Date id="2017-08-10" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="195"></Rate>
+            </Date>
+            <Date id="2017-08-11" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="195"></Rate>
+            </Date>
+            <Date id="2017-08-12" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="195"></Rate>
+            </Date>
+            <Date id="2017-08-13" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="195"></Rate>
+            </Date>
+            <Date id="2017-08-14" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="195"></Rate>
+            </Date>
+            <Date id="2017-08-15" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="195"></Rate>
+            </Date>
+            <Date id="2017-08-16" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="195"></Rate>
+            </Date>
+            <Date id="2017-08-17" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="195"></Rate>
+            </Date>
+            <Date id="2017-08-18" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="195"></Rate>
+            </Date>
+            <Date id="2017-08-19" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="195"></Rate>
+            </Date>
+            <Date id="2017-08-20" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="195"></Rate>
+            </Date>
+            <Date id="2017-08-21" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="195"></Rate>
+            </Date>
+            <Date id="2017-08-22" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="195"></Rate>
+            </Date>
+            <Date id="2017-08-23" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="195"></Rate>
+            </Date>
+            <Date id="2017-08-24" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="195"></Rate>
+            </Date>
+            <Date id="2017-08-25" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="195"></Rate>
+            </Date>
+            <Date id="2017-08-26" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="195"></Rate>
+            </Date>
+            <Date id="2017-08-27" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="195"></Rate>
+            </Date>
+            <Date id="2017-08-28" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="195"></Rate>
+            </Date>
+            <Date id="2017-08-29" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="195"></Rate>
+            </Date>
+            <Date id="2017-08-30" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="195"></Rate>
+            </Date>
+            <Date id="2017-08-31" NTrpRate="-1" TrpRate="" NDblRate="-1" DblRate="">
+                <Rate NRate="195"></Rate>
+            </Date>
+        </RoomType>
+        <ParamList ProductType="RTConnect" values="|DblRate|TrpRate|Rate"/>
+    </Hotel>
+</Website>
